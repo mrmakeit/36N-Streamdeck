@@ -1,0 +1,23 @@
+{
+  "name": "36n-streamdeck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmakeit/36N-Streamdeck.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrmakeit/36N-Streamdeck/issues"
+  },
+  "homepage": "https://github.com/mrmakeit/36N-Streamdeck#readme",
+  "dependencies": {
+    "elgato-stream-deck": "^2.0.0",
+    "obs-websocket-js": "^1.1.0"
+  }
+}
