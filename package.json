@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mrmakeit/36N-Streamdeck#readme",
   "dependencies": {
     "elgato-stream-deck": "^2.0.0",
-    "obs-websocket-js": "^1.1.0"
+    "obs-websocket-js": "^1.1.0",
+    "winston": "^2.4.0"
   }
 }
