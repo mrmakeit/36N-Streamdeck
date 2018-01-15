@@ -1,0 +1,38 @@
+[
+  [
+    {"type":"sceneKey","params":["deck","obs","Caster_Only","Caster-Only.png"]},
+    {"type":"sceneKey","params":["deck","obs","Screen_Caster_TL","Screen-Caster-TL.png"]},
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {"type":"pageDownKey","params":["deck"]}
+  ],
+  [
+    null,
+    null,
+    null,
+    null,
+    {"type":"pageUpKey","params":["deck"]},
+    null,
+    null,
+    null,
+    null,
+    null,
+    {"type":"recordKey","params":["deck","obs"]},
+    {"type":"streamKey","params":["deck","obs"]},
+    null,
+    null,
+    null,
+    null
+  ]
+]
+
