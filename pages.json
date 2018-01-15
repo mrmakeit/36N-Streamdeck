@@ -1,12 +1,12 @@
 [
   [
     {"type":"sceneKey","params":["deck","obs","Caster_Only","Caster-Only.png"]},
-    {"type":"sceneKey","params":["deck","obs","Screen_Caster_TL","Screen-Caster-TL.png"]},
+    {"type":"sceneKey","params":["deck","obs","Screen_Caster","Screen-Caster.png"]},
     null,
     null,
     null,
-    null,
-    null,
+    {"type":"sceneKey","params":["deck","obs","Caster_Screen","Caster-Screen.png"]},
+    {"type":"sceneKey","params":["deck","obs","Screen_Only","Screen-Only.png"]},
     null,
     null,
     null,
