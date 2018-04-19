@@ -121,6 +121,50 @@
        fx="23.786987"
        fy="25.186892"
        r="17.33798" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient898-2"
+       id="radialGradient879"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2543521,3.4952338e-8,-3.2804609e-8,1.1772755,-183.95927,-99.493837)"
+       cx="23.786987"
+       cy="25.186892"
+       fx="23.786987"
+       fy="25.186892"
+       r="17.33798" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient898-2"
+       id="radialGradient883"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2543521,3.4952338e-8,-3.2804609e-8,1.1772755,-185.47117,-142.96109)"
+       cx="23.786987"
+       cy="25.186892"
+       fx="23.786987"
+       fy="25.186892"
+       r="17.33798" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient921"
+       id="radialGradient887"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2543521,3.4952339e-8,-3.280461e-8,1.1772755,-141.21188,-96.847998)"
+       cx="23.786987"
+       cy="25.186892"
+       fx="23.786987"
+       fy="25.186892"
+       r="17.33798" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient921"
+       id="radialGradient891"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2543521,3.4952339e-8,-3.280461e-8,1.1772755,-141.96783,-141.44919)"
+       cx="23.786987"
+       cy="25.186892"
+       fx="23.786987"
+       fy="25.186892"
+       r="17.33798" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -129,16 +173,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="162.99455"
-     inkscape:cy="785.48088"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="416.92137"
+     inkscape:cy="415.14013"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1015"
-     inkscape:window-x="1680"
-     inkscape:window-y="0"
+     inkscape:window-width="1280"
+     inkscape:window-height="665"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      showguides="false" />
   <metadata
@@ -149,7 +193,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -468,5 +512,57 @@
          id="circle1712"
          style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
+    <rect
+       inkscape:export-ydpi="52.739697"
+       inkscape:export-xdpi="52.739697"
+       inkscape:export-filename="/home/blixa/projects/36N-Streamdeck/resources/keyIcons/scene_on.png"
+       transform="scale(-1)"
+       ry="4.2763014"
+       rx="4.2763014"
+       y="-86.679901"
+       x="-170.95999"
+       height="33.675961"
+       width="33.675961"
+       id="rect877"
+       style="fill:url(#radialGradient879);fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="fill:url(#radialGradient883);fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect881"
+       width="33.675961"
+       height="33.675961"
+       x="-172.47189"
+       y="-130.14717"
+       rx="4.2763014"
+       ry="4.2763014"
+       transform="scale(-1)"
+       inkscape:export-filename="/home/blixa/projects/36N-Streamdeck/resources/keyIcons/scene_on.png"
+       inkscape:export-xdpi="52.739697"
+       inkscape:export-ydpi="52.739697" />
+    <rect
+       inkscape:export-ydpi="52.739697"
+       inkscape:export-xdpi="52.739697"
+       inkscape:export-filename="/home/blixa/projects/36N-Streamdeck/resources/keyIcons/record_off.png"
+       style="fill:url(#radialGradient887);fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect885"
+       width="33.675961"
+       height="33.675961"
+       x="-128.2126"
+       y="-84.034065"
+       rx="4.2763014"
+       ry="4.2763014"
+       transform="scale(-1)" />
+    <rect
+       transform="scale(-1)"
+       ry="4.2763014"
+       rx="4.2763014"
+       y="-128.63527"
+       x="-128.96855"
+       height="33.675961"
+       width="33.675961"
+       id="rect889"
+       style="fill:url(#radialGradient891);fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="/home/blixa/projects/36N-Streamdeck/resources/keyIcons/record_off.png"
+       inkscape:export-xdpi="52.739697"
+       inkscape:export-ydpi="52.739697" />
   </g>
 </svg>
