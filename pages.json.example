@@ -25,11 +25,11 @@
     null,
     {"type":"pageUpKey","params":["deck"]},
 
-    {"type":"communityKey","params":["deck","obs","rtmp://x.rtmp.youtube.com/live2","8u00-88cj-s5ha-c10u","twd.png"]},
-    {"type":"communityKey","params":["deck","obs","rtmp://x.rtmp.youtube.com/live2","dzbj-w903-rsj9-cw14","lambda.png"]},
-    {"type":"communityKey","params":["deck","obs","rtmp://x.rtmp.youtube.com/live2","hwu7-gy3s-47zg-dmcb","tgd.png"]},
-    {"type":"communityKey","params":["deck","obs","rtmp://x.rtmp.youtube.com/live2","e3zc-371y-tv64-26rd","morgan.png"]},
-    {"type":"communityKey","params":["deck","obs","rtmp://x.rtmp.youtube.com/live2","q41b-wkka-7r8t-66rf","tosh.png"]},
+    {"type":"communityKey","params":["deck","obs","rtmp://x.rtmp.youtube.com/live2","exam-plek-ey12-3456","twd.png"]},
+    null,
+    null,
+    null,
+    null,
 
     null,
     null,
