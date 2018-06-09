@@ -11,7 +11,6 @@ env(__dirname + "/.env")
 
 let obs = null
 if(process.env.LOCAL_OBS){
-  const obsProc = new OBS();
   obs = new OBSWS('127.0.0.1','4444');
 }else{
   obs = new OBSWS(process.env.OBS_HOST,process.env.OBS_PORT,process.env.OBS_PASSWORD)

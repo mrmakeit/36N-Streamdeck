@@ -45,6 +45,53 @@ class recordKey extends Key {
   }
 }
 
+class obsConnectionKey extends Key {
+  constructor(deck,obs){
+    super()
+    let key = this;
+    this.deck = deck;
+    this.obs = obs;
+    sharp(path.resolve(__dirname,'../resources/keyIcons/obs_off.png'))
+      .flatten()
+      .resize(72,72)
+      .raw()
+      .toBuffer()
+      .then(buffer => {
+        key.image = buffer
+        key.imageOff = buffer
+      })
+      .catch(err => {
+        console.error(err);
+      })
+    sharp(path.resolve(__dirname,'../resources/keyIcons/obs_on.png'))
+      .flatten()
+      .resize(72,72)
+      .raw()
+      .toBuffer()
+      .then(buffer => {
+        key.imageOn = buffer
+      })
+      .catch(err => {
+        console.error(err);
+      })
+    this.obs.on("connected",function(){
+      key.image = key.imageOn;
+      key.deck.draw()
+    })
+    this.obs.on("disconnected", function(){
+      key.image = key.imageOff;
+      key.deck.draw()
+    })
+  }
+  onPress(){
+    if(!this.obs.connected){
+      this.obs.connect();
+    }else{
+      this.obs.disconnect();
+    }
+  }
+}
+
 class streamKey extends Key {
   constructor(deck,obs){
     super()
@@ -156,5 +203,6 @@ class sceneKey extends Key {
 module.exports = {
   recordKey:recordKey,
   streamKey:streamKey,
-  sceneKey:sceneKey
+  sceneKey:sceneKey,
+  obsConnectionKey:obsConnectionKey
 }
